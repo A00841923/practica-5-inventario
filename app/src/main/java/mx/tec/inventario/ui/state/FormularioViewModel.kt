@@ -96,6 +96,8 @@ class FormularioViewModel(
                 precio = uiState.precio.toDouble(),
                 cantidad = uiState.cantidad.toInt()
             )
+
+            kotlinx.coroutines.delay(2000) // Experimento C1
             if (productoId == null) repository.agregar(producto)
             else repository.actualizar(producto)
             uiState = uiState.copy(guardando = false)
