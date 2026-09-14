@@ -19,6 +19,7 @@ import mx.tec.inventario.ui.navigation.Route
  * Lo que el usuario lleva tecleado. Todo es texto: un campo vacío no es un
  * cero, y "12.9." no es un número todavía.
  */
+
 data class FormularioUiState(
     val nombre: String = "",
     val precio: String = "",
