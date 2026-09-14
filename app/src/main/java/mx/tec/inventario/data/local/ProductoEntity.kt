@@ -1,4 +1,4 @@
-package mx.tec.inventario.data
+package mx.tec.inventario.data.local
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
